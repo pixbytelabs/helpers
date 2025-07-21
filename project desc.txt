@@ -1,0 +1,154 @@
+Create a complete static website for a cleaning company called "helpers.ae" using HTML, CSS, and JavaScript. I have 3 images in the "images" folder that need to be integrated:
+Available Images:
+
+hero-cleaning-team.jpg - Professional cleaning team in modern living room (for hero section)
+residential-kitchen-cleaning.jpg - Female cleaner in blue uniform cleaning modern kitchen (for residential services)
+commercial-office-cleaning.jpg - Professional cleaning staff in corporate office (for commercial services)
+
+Website Requirements:
+STRUCTURE & SECTIONS:
+
+Header/Navigation
+
+Logo: "/Users/arunbabu/Desktop/Code/helpers-ae/images/helpers_ae_logo.png"
+Menu: Home, Services, About, Contact, Book Now
+Phone number and "Get Quote" button
+
+
+Hero Section
+
+Use hero-cleaning-team.jpg as background/feature image
+Headline: "Professional Cleaning Services in UAE"
+Subheadline about reliability and quality
+Two CTA buttons: "Book Now" and "Get Free Quote"
+
+
+Services Section
+
+Residential Cleaning card - use residential-kitchen-cleaning.jpg
+Commercial Cleaning card - use commercial-office-cleaning.jpg
+Deep Cleaning card - use placeholder or icon
+Move-in/Move-out Cleaning card - use placeholder or icon
+Each card should have service description and "Learn More" button
+
+
+Why Choose Us Section
+
+4 benefit boxes: Licensed & Insured, Experienced Staff, Eco-Friendly Products, 24/7 Support
+Include icons for each benefit
+Customer testimonial area
+
+
+Service Areas with Google Map
+
+Google Maps integration showing UAE service areas
+List of covered areas (Dubai, Abu Dhabi, Sharjah, Ajman)
+Interactive map with custom markers
+
+
+Booking/Scheduling Section
+
+Scheduling form with:
+
+Personal details (Name, Email, Phone, Address)
+Service type dropdown
+Date picker (disable past dates)
+Time slots: Morning (8AM-12PM), Afternoon (12PM-4PM), Evening (4PM-8PM)
+Frequency: One-time, Weekly, Bi-weekly, Monthly
+Special instructions textarea
+Price calculator showing estimated cost
+
+
+Form should have validation and show success message (no backend needed)
+
+
+Contact Section
+
+Contact information (phone, email, address)
+Enquiry form with:
+
+Name, Email, Phone
+Service interest dropdown
+Property type (Apartment, Villa, Office)
+Message field
+Preferred contact method (Phone, Email, WhatsApp)
+
+
+Second Google Map showing business location
+
+
+Footer
+
+Social media icons
+Quick links
+Copyright info
+
+
+
+DESIGN SPECIFICATIONS:
+
+Color Scheme: Primary blue (#2E86AB), white backgrounds, green accents (#28A745), orange CTAs (#F18F01)
+Typography: Use Google Fonts - Inter for headings, Poppins for body text
+Style: Modern, clean, professional with plenty of white space
+Mobile responsive with hamburger menu for mobile
+
+TECHNICAL REQUIREMENTS:
+
+Google Maps Integration:
+
+Include Google Maps JavaScript API
+Custom styling to match brand colors
+Service area polygons and business location marker
+
+
+Interactive Features:
+
+Smooth scrolling navigation
+Form validation with real-time feedback
+Price calculator that updates based on service/frequency selection
+Image hover effects
+Mobile-responsive design
+
+
+JavaScript Functionality:
+
+Date picker with disabled past dates
+Time slot selection
+Form validation for both forms
+Price calculation logic
+Success/error message display
+Local storage for form data persistence
+
+
+CSS Features:
+
+CSS Grid and Flexbox layouts
+Hover animations
+Responsive breakpoints (mobile: 320px-768px, tablet: 768px-1024px, desktop: 1024px+)
+Loading animations
+
+
+
+FORMS MOCK FUNCTIONALITY:
+
+Both forms should validate input fields
+Show loading spinner on submit
+Display success message: "Thank you! We'll contact you within 24 hours"
+Reset form after submission
+No actual backend connection needed - just visual feedback
+
+PRICING DISPLAY:
+Create a simple pricing calculator that shows estimated costs:
+
+Residential cleaning: AED 150-300
+Commercial cleaning: AED 200-500
+Deep cleaning: AED 300-600
+Frequency discounts: Weekly (10% off), Bi-weekly (5% off)
+
+IMAGE INTEGRATION:
+
+Optimize all three images for web (responsive sizing)
+Use proper alt text for accessibility
+Implement lazy loading
+
+Please create a complete, professional website with all HTML, CSS, and JavaScript in separate files. Make it visually appealing, fully responsive, and include all the interactive features mentioned above.
